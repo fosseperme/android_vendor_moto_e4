@@ -25,4 +25,4 @@ service ril-daemon-mtk /vendor/bin/mtkrild
     oneshot
 
 on property:ril.mtk=1
-    start ril-daemon-mtk
+    start ril-daemon-mtk 
